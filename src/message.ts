@@ -5,6 +5,7 @@ export class Message {
     public user: User,
     public sender: string,
     public recipient: string,
+    public room: string,
     public content: string,
   ) { }
 }
