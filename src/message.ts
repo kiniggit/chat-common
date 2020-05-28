@@ -8,5 +8,6 @@ export class Message {
     public recipient: string,
     public room: string,
     public content: string,
+    public state: string,
   ) { }
 }
