@@ -1,5 +1,5 @@
 import { User } from './user';
-
+import { MessageState } from './message_state';
 export class Message {
   constructor(
     public uuid: string,
@@ -8,6 +8,6 @@ export class Message {
     public recipient: string,
     public room: string,
     public content: string,
-    public state: string,
+    public state: MessageState,
   ) { }
 }
